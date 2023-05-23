@@ -14,3 +14,4 @@ import pandas as pd
 df = pd.read_csv("传输内容.txt", sep='\t')
 print(df)
 df.to_csv('传输内容.csv', encoding='utf-8-sig', index=False)
+df.to_excel('传输内容.xlsx', index=False)
